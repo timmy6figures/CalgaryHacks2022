@@ -14,7 +14,6 @@ main = Blueprint('main', __name__)
 def home():
     return 'Hello World!'
 
-
 @main.route('/barcodeImage', methods=('POST',))
 def barcodeImage():
     print(request)
@@ -22,6 +21,7 @@ def barcodeImage():
     print(content)
 
     # read the image from the request body
+    img = None
     try:
         img = np.array(content["image"])
     except Exception:
