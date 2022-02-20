@@ -1,0 +1,66 @@
+.header {
+  background-color: $secondary-color;
+  color: $text-color;
+
+  box-shadow: $box-shadow;
+  padding: 1rem;
+
+  .mango-icon {
+    height: 30px;
+    width: 30px;
+
+    margin-right: 0.75rem;
+  }
+
+  // &-navbar {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  &-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-title {
+    font-family: "Kalam", cursive;
+    font-size: 22px;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hamburger-button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .close-button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .menu-list {
+    background-color: #fafafa;
+    grid-column: 1 / span 2;
+    justify-self: center;
+    overflow: hidden;
+    &-items {
+      text-align: center;
+      list-style: none;
+      > li {
+        margin-bottom: 1em;
+        > h3 {
+          color: $text-color;
+        }
+      }
+    }
+  }
+}
