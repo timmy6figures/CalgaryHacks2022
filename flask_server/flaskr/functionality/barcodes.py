@@ -1,6 +1,6 @@
 from pyzbar import pyzbar
 import cv2
-from errors import InvalidBarcode, MultipleBarcode
+from flask_server.flaskr.functionality.errors import InvalidBarcode, MultipleBarcode
 
 def draw_barcode_to_image(object, image):
     image = cv2.rectangle(
