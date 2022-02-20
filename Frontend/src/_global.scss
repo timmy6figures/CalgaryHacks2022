@@ -1,0 +1,21 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+$primary-color: #dc7d23;
+$secondary-color: #fafafa;
+$tertiary-color: #e3974f;
+$text-color: #130a27;
+
+// Shadow effect
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+  0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+
+$box-shadow-left: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
+body {
+  background: linear-gradient(to left, $tertiary-color, #dc7d23);
+}
