@@ -1,0 +1,22 @@
+{
+  "name": "ok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmy6figures/CalgaryHacks2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmy6figures/CalgaryHacks2022/issues"
+  },
+  "homepage": "https://github.com/timmy6figures/CalgaryHacks2022#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
