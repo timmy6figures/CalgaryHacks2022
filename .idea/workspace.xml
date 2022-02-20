@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82dc83ee-4738-48e2-9bb0-8adbb3f58bc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_server/flaskr/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_server/flaskr/main/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_server/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_server/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +48,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask_server/flaskr/functionality/barcode_to_info_edamame.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask_server/setup.py" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="barcode_to_info_edamame" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CalgaryHacks2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +72,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CalgaryHacks2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Projects\CalgaryHacks2022\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_server" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_server/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.barcode_to_info_edamame" />
+      <item itemvalue="Python.setup" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,33 +122,39 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="194" y="46" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645315138486">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-2237" y="-227" width="1815" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645373003793">
+      <screen x="-2560" y="-285" width="2560" height="1050" />
     </state>
+    <state x="-2237" y="-227" width="1815" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-2560.-285.2560.1050@-2560.-285.2560.1050" timestamp="1645373003793" />
     <state x="194" y="46" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645315138486" />
     <state x="439" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645315753992">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="439" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645315753992" />
-    <state x="512" y="158" key="FileChooserDialogImpl" timestamp="1645315137553">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-1707" y="-86" key="FileChooserDialogImpl" timestamp="1645373002352">
+      <screen x="-2560" y="-285" width="2560" height="1050" />
     </state>
+    <state x="-1707" y="-86" key="FileChooserDialogImpl/0.0.1536.834/-2560.-285.2560.1050@-2560.-285.2560.1050" timestamp="1645373002352" />
     <state x="512" y="158" key="FileChooserDialogImpl/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645315137553" />
-    <state width="1516" height="230" key="GridCell.Tab.0.bottom" timestamp="1645323937844">
+    <state width="1516" height="228" key="GridCell.Tab.0.bottom" timestamp="1645373575598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1516" height="230" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645323937844" />
-    <state width="1516" height="230" key="GridCell.Tab.0.center" timestamp="1645323937844">
+    <state width="1257" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.-285.2560.1050@-2560.-285.2560.1050" timestamp="1645373007045" />
+    <state width="1516" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645373575598" />
+    <state width="1516" height="228" key="GridCell.Tab.0.center" timestamp="1645373575598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1516" height="230" key="GridCell.Tab.0.center/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645323937844" />
-    <state width="1516" height="230" key="GridCell.Tab.0.left" timestamp="1645323937843">
+    <state width="1257" height="228" key="GridCell.Tab.0.center/0.0.1536.834/-2560.-285.2560.1050@-2560.-285.2560.1050" timestamp="1645373007045" />
+    <state width="1516" height="228" key="GridCell.Tab.0.center/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645373575598" />
+    <state width="1516" height="228" key="GridCell.Tab.0.left" timestamp="1645373575597">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1516" height="230" key="GridCell.Tab.0.left/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645323937843" />
-    <state width="1516" height="230" key="GridCell.Tab.0.right" timestamp="1645323937844">
+    <state width="1257" height="228" key="GridCell.Tab.0.left/0.0.1536.834/-2560.-285.2560.1050@-2560.-285.2560.1050" timestamp="1645373007045" />
+    <state width="1516" height="228" key="GridCell.Tab.0.left/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645373575597" />
+    <state width="1516" height="228" key="GridCell.Tab.0.right" timestamp="1645373575598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1516" height="230" key="GridCell.Tab.0.right/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645323937844" />
+    <state width="1257" height="228" key="GridCell.Tab.0.right/0.0.1536.834/-2560.-285.2560.1050@-2560.-285.2560.1050" timestamp="1645373007045" />
+    <state width="1516" height="228" key="GridCell.Tab.0.right/0.0.1536.834/-2560.-285.2560.1050@0.0.1536.834" timestamp="1645373575598" />
   </component>
 </project>

@@ -5,4 +5,4 @@ from flask import Flask, request, session, g, redirect, url_for, abort, \
 app = flask_server.flaskr.create_app()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
