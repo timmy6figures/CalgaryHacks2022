@@ -15,15 +15,18 @@ const Main = () => {
     setSelectedFile(event.target.files[0]);
     setIsFilePicked(true);
   };
-
+  
   const handleSubmission = () => {
     if(!isFilePicked) return;
     console.log(selectedFile);
+    var headers1 = {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Credentials': 'true'
+      //'http://localhost:5000/barcodeImage'
+    }
     axios.post("http://localhost:5000/barcodeImage", selectedFile, {
-        headers: {
-          'Content-Type':selectedFile.type,
-          'Access-Control-Allow-Origin': '*'//'http://localhost:5000/barcodeImage'
-        }
+      headers: headers1
     });
     setSelectedFile(null);
   };
