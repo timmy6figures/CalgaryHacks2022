@@ -1,6 +1,9 @@
-from flask import Blueprint, request
-from flaskr.functionality.handle_images import json_to_barcode
-from flaskr.functionality.errors import InvalidBarcode, InvalidJson, MultipleBarcode
+from flask import Blueprint, request, jsonify
+from flaskr.functionality.barcodes import get_barcode_data
+from flaskr.functionality.barcode_to_info_edamame import get_product_information
+from flaskr.functionality.errors import InvalidBarcode, MultipleBarcode
+
+import numpy as np
 
 # this creates a blueprint for the visualization grouping
 # the url prefix is prepended to the urls associated to this blueprint
@@ -16,9 +19,26 @@ def home():
 def barcodeImage():
     content = request.json
     print(content)
+
+    # read the image from the request body
     try:
-        barcode = json_to_barcode(content)
-        return 'good'
+        img = np.array(content["image"])
+    except Exception:
+        jsonify({'error': 'no image'})
+    
+    # read the barcode data from the image that was sent in the request body
+    try:
+        barcode = get_barcode_data(img)
+    except InvalidBarcode as e:
+        jsonify({'error': 'invalid barcode'})
+    except MultipleBarcode as e:
+        jsonify({'error': 'multiple barcode'})
+
+    # get the nutritional info from the barcode
+    try:
+        info = get_product_information(barcode=barcode)
     except Exception as e:
-        print(e)
-        return 'bad'
+        jsonify({'error': 'no product information'})
+
+    return jsonify({'info': info})
+    

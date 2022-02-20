@@ -1,6 +1,4 @@
 import requests
-from oauthlib.oauth2 import BackendApplicationClient
-from requests_oauthlib import OAuth2Session
 import json
 
 def get_product_information(barcode=None, keyword=None, other_params=None):
