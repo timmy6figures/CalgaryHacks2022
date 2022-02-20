@@ -6,12 +6,3 @@ app = flask_server.flaskr.create_app()
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-    @app.route('/geo', methods=['GET', 'POST'])
-    def geo():
-        return render_template('geo.html')
-
-    @app.route('/postmethod', methods=['GET', 'POST'])
-    def get_post_location():
-        where = request.form['location']
-        return where
