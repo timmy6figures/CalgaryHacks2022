@@ -27,7 +27,7 @@ def create_app(test_config=None):
         # raise Exception('Instance path does not exist')
 
     # load and register all the routes in the respective routes.py files
-    from flask_server.flaskr.main.routes import main
+    from flaskr.main.routes import main
     app.register_blueprint(main)
     
     return app

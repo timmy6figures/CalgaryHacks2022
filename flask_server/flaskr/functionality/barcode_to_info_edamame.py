@@ -1,7 +1,7 @@
 import requests
 import json
 
-def get_product_information(barcode=None, keyword=None, other_params=None):
+def get_product_information(app_id, app_key, barcode=None, keyword=None, other_params=None):
     """
     :param barcode: The barcode of the product trying to be found
     :param keyword: The name of the product (e.g. apple)
@@ -11,7 +11,7 @@ def get_product_information(barcode=None, keyword=None, other_params=None):
     """
     url = 'https://api.edamam.com/api/food-database/v2/parser'
     headers={'Content-Type':'appplication/json'}
-    params={'app_id':'1a92f936', 'app_key':'b215ad19c437e29706a5c36b4e197016', 'upc':barcode}
+    params={'app_id':app_id, 'app_key':app_key, 'upc':barcode}
     if barcode:
         params['barcode'] = barcode
     # This is ELSE if to make sure only one is send in the paramaters.

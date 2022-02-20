@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 // const fetch = require('node-fetch');
 
-const flaskURL = "";
+const flaskURL = "http://localhost:5000/barcodeImage";
 
 const readInfo = async (image) => {
     const response = await fetch(flaskURL, 
