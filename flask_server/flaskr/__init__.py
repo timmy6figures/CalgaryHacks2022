@@ -10,7 +10,8 @@ def create_app(test_config=None):
 
     # this instantiates what the config will be holding for us
     app.config.from_mapping(
-        SECRET_KEY='dev'
+        APP_ID = 'dev',
+        APP_KEY = 'dev'
     )
 
     if(test_config is None):
