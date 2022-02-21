@@ -14,6 +14,10 @@ main = Blueprint('main', __name__)
 def home():
     return 'Hello World!'
 
+@main.route('/barcodeImage', methods=('OPTIONS',))
+def barcodeImageOptions():
+    return 'Hello World!'
+
 @main.route('/barcodeImage', methods=('POST',))
 def barcodeImage():
     print(request)
