@@ -1,0 +1,53 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttonContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+    button {
+        background-color: lightblue;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height:40px;
+    }
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    text-align: left;
+    border: 2px solid gray;
+    width: 400px;
+}
+thead {
+    border-bottom: 2px solid gray;
+    background-color: lightblue;
+}
+th {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+td {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px;
+}
+tbody tr:nth-child(odd) {
+    // background-color: whitesmoke;
+    background-color: whitesmoke;
+}
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}

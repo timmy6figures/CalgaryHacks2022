@@ -1,0 +1,74 @@
+.container {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: 400px;
+}
+
+.buttonContainer button {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+  text-align: left;
+  border: 2px solid gray;
+  width: 400px;
+}
+
+thead {
+  border-bottom: 2px solid gray;
+  background-color: lightblue;
+}
+
+th {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+td {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightblue;
+}
+/*# sourceMappingURL=main-style.module.css.map */
